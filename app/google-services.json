@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1090503295969",
+    "firebase_url": "https://bet-366.firebaseio.com",
+    "project_id": "bet-366",
+    "storage_bucket": "bet-366.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1090503295969:android:e3797605e80e0ae3",
+        "android_client_info": {
+          "package_name": "com.example.raghav.bet366"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1090503295969-58dnp0t18r4mjn6nq1a0f32o494p7edn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.raghav.bet366",
+            "certificate_hash": "d77ced043230af0877aad0d0661be231bf9ee47c"
+          }
+        },
+        {
+          "client_id": "1090503295969-r3aad9tv05kjrg3ccmp0rd3creoup95g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBI-V9VrZfb7VKAkZzzwMud6nH42Gs-TUU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1090503295969-r3aad9tv05kjrg3ccmp0rd3creoup95g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

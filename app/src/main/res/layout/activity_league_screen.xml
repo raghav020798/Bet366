@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.raghav.bet366.LeagueScreen"
+    android:background="@drawable/ligue_wallpaper">
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="55dp"
+        android:textColor="#ffffff"
+        android:text="LEAGUE LIST"
+        android:textStyle="bold"
+        android:textSize="21sp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/border"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:id="@+id/textView4" />
+
+    <ListView
+        android:id="@+id/lists"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="15dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Out"
+        android:textColor="#fff"
+        android:background="@drawable/border"
+        android:layout_marginEnd="70dp"
+        android:layout_below="@+id/lists"
+        android:layout_alignEnd="@+id/textView4"
+        android:id="@+id/signOut"/>
+
+
+</RelativeLayout>
